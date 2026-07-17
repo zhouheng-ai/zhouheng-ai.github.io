@@ -322,19 +322,7 @@ He received my Ph.D. degree in Electronic Science and Technology from Xidian Uni
 </div>
 
 
-<section markdown="1">
-
-## Publications
-
-<div class="publication">
-  <span class="paper-title">Title of Your Paper.</span><br>
-  <strong>Heng Zhou</strong>, Second Author, Third Author.<br>
-  <span class="venue">Conference or Journal Name</span>, 2026.<br>
-  [<a href="#">Paper</a>]
-  [<a href="#">Code</a>]
-</div>
-
-</section>
+{% include publications.html %}
 
 <p class="updated">
   Last updated: {{ site.time | date: "%B %Y" }}
