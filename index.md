@@ -190,9 +190,11 @@ title: Heng Zhou
 </p>
 
 <p>
-  I am Heng Zhou, a researcher interested in artificial intelligence
-  and machine learning. My research focuses on developing effective,
-  reliable, and practical intelligent systems.
+周恒
+  
+  I am currently a Lecturer at the School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China. 
+  I received my Ph.D. degree in Electronic Science and Technology from Xidian University in 2024. My research interests include multimodal learning, remote sensing image processing, and their applications in smart cities and autonomous driving.
+
 </p>
 
 
