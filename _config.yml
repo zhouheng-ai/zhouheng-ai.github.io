@@ -1,11 +1,9 @@
-theme: jekyll-theme-minimal
+theme: minima
 
 title: Heng Zhou
-logo: /imgs/HengZhou.jpg
-
-description: >-
-  Researcher in artificial intelligence and machine learning.
-
-show_downloads: false
+description: Academic homepage of Heng Zhou
 
 url: https://zhouheng-ai.github.io
+baseurl: ""
+
+markdown: kramdown
