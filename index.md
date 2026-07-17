@@ -181,7 +181,7 @@ title: Heng Zhou
 </h1>
 
 <p class="position">
-  Researcher in Artificial Intelligence
+  Lecturer
 </p>
 
 <p class="affiliation">
