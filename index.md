@@ -186,7 +186,7 @@ title: Heng Zhou
 
 <p class="affiliation">
   School of Artificial Intelligence and Computer Science<br>
-  Jiangnan University, Wuxi, China
+  Jiangnan University (江南大学), Wuxi (无锡), China
 </p>
 
 <p>
