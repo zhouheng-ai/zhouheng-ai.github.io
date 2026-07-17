@@ -205,7 +205,7 @@ title: Heng Zhou
 
 </div>
 
-<section>
+<section markdown="1">
 
 ## Research Interests
 
@@ -216,7 +216,7 @@ title: Heng Zhou
 
 </section>
 
-<section>
+<section markdown="1">
 
 ## News
 
@@ -229,7 +229,7 @@ title: Heng Zhou
 
 </section>
 
-<section>
+<section markdown="1">
 
 ## Publications
 
