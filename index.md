@@ -164,6 +164,116 @@ title: Heng Zhou
       margin-bottom: 2px;
     }
   }
+
+  /* WeChat 弹窗 */
+.wechat-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 24px;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  transition:
+    opacity 0.2s ease,
+    visibility 0.2s ease;
+}
+
+/* 访问 #wechat-modal 时显示 */
+.wechat-modal:target {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+/* 灰色遮罩 */
+.wechat-modal-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.68);
+  cursor: default;
+}
+
+/* 白色弹窗主体 */
+.wechat-modal-content {
+  position: relative;
+  z-index: 1;
+
+  width: min(470px, 100%);
+  padding: 48px 48px 36px;
+
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.28);
+
+  text-align: center;
+  transform: translateY(14px) scale(0.97);
+  transition: transform 0.2s ease;
+}
+
+.wechat-modal:target .wechat-modal-content {
+  transform: translateY(0) scale(1);
+}
+
+/* 右上角关闭按钮 */
+.wechat-modal-close {
+  position: absolute;
+  top: 14px;
+  right: 22px;
+
+  color: #12324a;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.wechat-modal-close:hover {
+  color: #1769aa;
+  text-decoration: none;
+}
+
+/* 二维码 */
+.wechat-qr {
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  margin: 0 auto;
+
+  border-radius: 10px;
+}
+
+/* 底部文字 */
+.wechat-modal-title {
+  margin: 28px 0 0;
+  color: #17344c;
+  font-size: 21px;
+}
+
+/* 手机端 */
+@media (max-width: 600px) {
+  .wechat-modal {
+    padding: 18px;
+  }
+
+  .wechat-modal-content {
+    padding: 44px 24px 28px;
+    border-radius: 14px;
+  }
+
+  .wechat-modal-title {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+}
 </style>
 
 <div class="homepage">
@@ -228,4 +338,40 @@ He received my Ph.D. degree in Electronic Science and Technology from Xidian Uni
   Last updated: {{ site.time | date: "%B %Y" }}
 </p>
 
+</div>
+
+
+<div
+  id="wechat-modal"
+  class="wechat-modal"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="wechat-modal-title"
+>
+  <!-- 点击灰色背景关闭 -->
+  <a
+    href="#"
+    class="wechat-modal-overlay"
+    aria-label="Close WeChat dialog"
+  ></a>
+
+  <div class="wechat-modal-content">
+    <a
+      href="#"
+      class="wechat-modal-close"
+      aria-label="Close WeChat dialog"
+    >
+      &times;
+    </a>
+
+    <img
+      class="wechat-qr"
+      src="/imgs/HengZhou-WeChat.jpg"
+      alt="Heng Zhou WeChat QR code"
+    >
+
+    <p id="wechat-modal-title" class="wechat-modal-title">
+      💬 Scan to add WeChat
+    </p>
+  </div>
 </div>
