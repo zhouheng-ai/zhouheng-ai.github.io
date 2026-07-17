@@ -244,7 +244,7 @@ title: Heng Zhou
 </section>
 
 <p class="updated">
-  Last updated: July 2026
+  Last updated: {{ site.time | date: "%B %Y" }}
 </p>
 
 </div>
