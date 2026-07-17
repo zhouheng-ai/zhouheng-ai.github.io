@@ -310,13 +310,13 @@ He received my Ph.D. degree in Electronic Science and Technology from Xidian Uni
 
 
 <p class="profile-links">
+   <a href="#wechat-modal">WeChat</a>
+   &nbsp;·&nbsp;
   <a href="mailto:hengzhou@jiangnan.edu.cn">Email</a>
   &nbsp;·&nbsp;
   <a href="https://scholar.google.com.hk/citations?hl=en&user=WFFSbNQAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
   &nbsp;·&nbsp;
   <a href="https://ai.jiangnan.edu.cn/info/1010/2126.htm">Institution Page</a>
-   &nbsp;·&nbsp;
-  <a href="#wechat-modal">WeChat</a>
 </p>
 
 </div>
