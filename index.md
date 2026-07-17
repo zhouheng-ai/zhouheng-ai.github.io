@@ -185,14 +185,14 @@ title: Heng Zhou
 </p>
 
 <p class="affiliation">
-  Your Department<br>
-  Your University, City, China
+  School of Artificial Intelligence and Computer Science<br>
+  Jiangnan University, Wuxi, China
 </p>
 
 <p class="profile-links">
-  <a href="mailto:your-email@example.com">Email</a>
+  <a href="mailto:hengzhou@jiangnan.edu.cn">Email</a>
   &nbsp;·&nbsp;
-  <a href="YOUR_GOOGLE_SCHOLAR_URL">Google Scholar</a>
+  <a href="https://scholar.google.com.hk/citations?hl=en&user=WFFSbNQAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/zhouheng-ai">GitHub</a>
 </p>
