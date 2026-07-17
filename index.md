@@ -190,10 +190,11 @@ title: Heng Zhou
 </p>
 
 <p>
-周恒
-  
-  I am currently a Lecturer at the School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China. 
-  I received my Ph.D. degree in Electronic Science and Technology from Xidian University in 2024. My research interests include multimodal learning, remote sensing image processing, and their applications in smart cities and autonomous driving.
+周恒，讲师，硕士生导师，江苏省卓越博士后，西安电子科技大学与军事科学院联合培养博士。
+</p>
+<p>
+He is currently a Lecturer at the School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China. 
+He received my Ph.D. degree in Electronic Science and Technology from Xidian University in 2024. His research interests include multimodal learning, remote sensing image processing.
 
 </p>
 
