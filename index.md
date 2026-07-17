@@ -189,6 +189,13 @@ title: Heng Zhou
   Jiangnan University, Wuxi, China
 </p>
 
+<p>
+  I am Heng Zhou, a researcher interested in artificial intelligence
+  and machine learning. My research focuses on developing effective,
+  reliable, and practical intelligent systems.
+</p>
+
+
 <p class="profile-links">
   <a href="mailto:hengzhou@jiangnan.edu.cn">Email</a>
   &nbsp;·&nbsp;
@@ -197,11 +204,6 @@ title: Heng Zhou
   <a href="https://github.com/zhouheng-ai">GitHub</a>
 </p>
 
-<p>
-  I am Heng Zhou, a researcher interested in artificial intelligence
-  and machine learning. My research focuses on developing effective,
-  reliable, and practical intelligent systems.
-</p>
 
 </div>
 
