@@ -204,32 +204,8 @@ title: Heng Zhou
   <a href="https://github.com/zhouheng-ai">GitHub</a>
 </p>
 
-
 </div>
 
-<section markdown="1">
-
-## Research Interests
-
-- Machine Learning
-- Deep Learning
-- Computer Vision
-- Trustworthy Artificial Intelligence
-
-</section>
-
-<section markdown="1">
-
-## News
-
-<ul class="news-list">
-  <li class="news-item">
-    <span class="news-date">Jul. 2026</span>
-    <span>My academic homepage is now online.</span>
-  </li>
-</ul>
-
-</section>
 
 <section markdown="1">
 
