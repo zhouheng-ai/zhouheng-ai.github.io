@@ -424,7 +424,7 @@ title: Heng Zhou
 </p>
 <p>
 He is currently a Lecturer at the School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China. 
-He received my Ph.D. degree in Electronic Science and Technology from Xidian University in 2024. His research interests include multimodal learning, remote sensing image processing.
+He received the Ph.D. degree in Electronic Science and Technology from Xidian University in 2024. His research interests include multimodal learning, remote sensing image processing.
 
 </p>
 
