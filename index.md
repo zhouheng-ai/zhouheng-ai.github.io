@@ -4,16 +4,6 @@ title: Heng Zhou
 ---
 
 <style>
-  .publications-list,
-.awards-list {
-  padding-left: 28px;
-}
-
-.publications-list li,
-.awards-list li {
-  margin-bottom: 12px;
-}
-
   
   /* 隐藏 Minima 主题自带的顶部导航和底部信息 */
   .site-header,
@@ -395,6 +385,16 @@ title: Heng Zhou
   .email-modal-title {
     font-size: 17px;
   }
+}
+
+  
+.awards-list {
+  padding-left: 28px;
+}
+
+.publications-list li,
+.awards-list li {
+  margin-bottom: 12px;
 }
 </style>
 
