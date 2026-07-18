@@ -387,15 +387,6 @@ title: Heng Zhou
   }
 }
 
-  
-.awards-list {
-  padding-left: 28px;
-}
-
-.publications-list li,
-.awards-list li {
-  margin-bottom: 12px;
-}
 </style>
 
 <div class="homepage">
