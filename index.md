@@ -411,7 +411,7 @@ title: Heng Zhou
 </p>
 
 <p>
-周恒，讲师，硕士生导师，江苏省卓越博士后，西安电子科技大学与军事科学院联合培养博士。
+周恒，讲师，硕士生导师，江苏省卓越博士后，西安电子科技大学优博。
 </p>
 <p>
 He is currently a Lecturer at the School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China. 
