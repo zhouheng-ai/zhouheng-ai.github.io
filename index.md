@@ -4,10 +4,12 @@ title: Heng Zhou
 ---
 
 <style>
-  .awards-list {
+  .publications-list,
+.awards-list {
   padding-left: 28px;
 }
 
+.publications-list li,
 .awards-list li {
   margin-bottom: 12px;
 }
