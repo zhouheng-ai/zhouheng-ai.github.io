@@ -4,6 +4,15 @@ title: Heng Zhou
 ---
 
 <style>
+  .awards-list {
+  padding-left: 28px;
+}
+
+.awards-list li {
+  margin-bottom: 12px;
+}
+
+  
   /* 隐藏 Minima 主题自带的顶部导航和底部信息 */
   .site-header,
   .site-footer {
@@ -434,6 +443,10 @@ He received my Ph.D. degree in Electronic Science and Technology from Xidian Uni
 
 
 {% include publications.html %}
+
+{% include awards.html %}
+
+
 
 <p class="updated">
   Last updated: {{ site.time | date: "%B %Y" }}
