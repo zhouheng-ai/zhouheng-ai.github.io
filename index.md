@@ -274,6 +274,117 @@ title: Heng Zhou
     font-size: 18px;
   }
 }
+
+  .email-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 24px;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  transition:
+    opacity 0.2s ease,
+    visibility 0.2s ease;
+}
+
+.email-modal:target {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.email-modal-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.68);
+}
+
+.email-modal-content {
+  position: relative;
+  z-index: 1;
+
+  width: min(550px, 100%);
+  padding: 48px 46px 36px;
+
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.28);
+
+  text-align: center;
+  transform: translateY(12px) scale(0.98);
+  transition: transform 0.2s ease;
+}
+
+.email-modal:target .email-modal-content {
+  transform: translateY(0) scale(1);
+}
+
+.email-modal-close {
+  position: absolute;
+  top: 13px;
+  right: 22px;
+
+  color: #12324a;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.email-modal-close:hover {
+  color: #1769aa;
+  text-decoration: none;
+}
+
+.email-address {
+  display: block;
+  width: 100%;
+  padding: 25px 16px;
+
+  color: #17344c;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 9px;
+
+  font-family: inherit;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.email-address:hover {
+  background: #f7f7f7;
+  border-color: #aaa;
+}
+
+.email-modal-title {
+  margin: 27px 0 0;
+  color: #17344c;
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  .email-modal-content {
+    padding: 45px 24px 30px;
+  }
+
+  .email-address {
+    padding: 20px 10px;
+    font-size: 18px;
+    overflow-wrap: anywhere;
+  }
+
+  .email-modal-title {
+    font-size: 17px;
+  }
+}
 </style>
 
 <div class="homepage">
@@ -312,7 +423,7 @@ He received my Ph.D. degree in Electronic Science and Technology from Xidian Uni
 <p class="profile-links">
    <a href="#wechat-modal">WeChat</a>
    &nbsp;·&nbsp;
-  <a href="mailto:hengzhou@jiangnan.edu.cn">Email</a>
+  <a href='#email-modal'>Email</a>
   &nbsp;·&nbsp;
   <a href="https://scholar.google.com.hk/citations?hl=en&user=WFFSbNQAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
   &nbsp;·&nbsp;
@@ -365,3 +476,58 @@ He received my Ph.D. degree in Electronic Science and Technology from Xidian Uni
     </p>
   </div>
 </div>
+
+
+<div
+  id='email-modal'
+  class='email-modal'
+  role='dialog'
+  aria-modal='true'
+  aria-labelledby='email-modal-title'
+>
+  <a
+    href='#'
+    class='email-modal-overlay'
+    aria-label='Close email dialog'
+  ></a>
+
+  <div class='email-modal-content'>
+    <a
+      href='#'
+      class='email-modal-close'
+      aria-label='Close email dialog'
+    >
+      &times;
+    </a>
+
+    <button
+      class='email-address'
+      type='button'
+      onclick='copyEmail()'
+    >
+      hengzhou@jiangnan.edu.cn
+    </button>
+
+    <p id='email-copy-status' class='email-modal-title'>
+      ✉️ Click to copy / Contact me via email
+    </p>
+  </div>
+</div>
+
+
+<script>
+  function copyEmail() {
+    const email = 'hengzhou@jiangnan.edu.cn';
+    const status = document.getElementById('email-copy-status');
+
+    navigator.clipboard.writeText(email).then(function () {
+      status.textContent = '✓ Email copied to clipboard';
+
+      window.setTimeout(function () {
+        status.textContent = '✉️ Click to copy / Contact me via email';
+      }, 1800);
+    }).catch(function () {
+      window.location.href = 'mailto:' + email;
+    });
+  }
+</script>
