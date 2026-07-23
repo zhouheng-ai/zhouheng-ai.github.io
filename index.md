@@ -434,6 +434,9 @@ He received the Ph.D. degree in Electronic Science and Technology from Xidian Un
 
 </div>
 
+%% 内容 %% 
+
+{% include interests.html %}
 
 {% include publications.html %}
 
