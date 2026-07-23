@@ -429,7 +429,7 @@ He received the Ph.D. degree in Electronic Science and Technology from Xidian Un
   &nbsp;·&nbsp;
   <a href="https://scholar.google.com.hk/citations?hl=en&user=WFFSbNQAAAAJ&view_op=list_works&sortby=pubdate">📖 Google Scholar</a>
   &nbsp;·&nbsp;
-  <a href="https://ai.jiangnan.edu.cn/info/1010/2126.htm">🏫 Institution Page</a>
+  <a href="https://www.researchgate.net/profile/Heng-Zhou-6">🏫 ResearchGate</a>
 </p>
 
 </div>
