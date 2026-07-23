@@ -537,7 +537,7 @@ He received his Ph.D. degree from Xidian University. His research interests incl
     </button>
 
     <p id='email-copy-status' class='email-modal-title'>
-      ✉️ Click to copy / Contact me via email
+      📧 Click to copy / Contact me via email
     </p>
   </div>
 </div>
