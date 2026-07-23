@@ -416,7 +416,7 @@ title: Heng Zhou
 周恒，讲师，硕士生导师，江苏省卓越博士后，西安电子科技大学优博。
 </p>
 <p>
-He is currently a Lecturer at the School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China. 
+He is currently a Lecturer at the Josef Kittler Research Institute of Artificial Intelligence and the International Joint Laboratory on Artificial Intelligence of the Ministry of Education, Jiangnan University, Wuxi, China.
 He received the Ph.D. degree in Electronic Science and Technology from Xidian University in 2024. His research interests include multimodal learning, remote sensing image processing.
 
 </p>
