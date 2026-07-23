@@ -550,7 +550,7 @@ He received the Ph.D. degree in Electronic Science and Technology from Xidian Un
       status.textContent = '✓ Email copied to clipboard';
 
       window.setTimeout(function () {
-        status.textContent = '✉️ Click to copy / Contact me via email';
+        status.textContent = '📧 Click to copy / Contact me via email';
       }, 1800);
     }).catch(function () {
       window.location.href = 'mailto:' + email;
