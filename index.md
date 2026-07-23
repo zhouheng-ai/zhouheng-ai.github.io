@@ -448,6 +448,8 @@ He received his Ph.D. degree from Xidian University. His research interests incl
 
 {% include publications.html %}
 
+{% include funding.html %}
+
 {% include awards.html %}
 
 
