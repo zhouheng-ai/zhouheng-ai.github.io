@@ -417,7 +417,7 @@ title: Heng Zhou
 </p>
 <p>
 He is currently affiliated with the Josef Kittler Research Institute of Artificial Intelligence and the International Joint Laboratory on Artificial Intelligence of the Ministry of Education at Jiangnan University, Wuxi, China. 
-He received his Ph.D. degree from Xidian University in 2024. 
+He received his Ph.D. degree from Xidian University. 
 His research interests include remote sensing and multimodal learning.
 
 </p>
