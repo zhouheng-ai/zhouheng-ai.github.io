@@ -416,8 +416,8 @@ title: Heng Zhou
 周恒，讲师，硕士生导师，江苏省卓越博士后，西安电子科技大学优博。
 </p>
 <p>
-He is currently affiliated with the Josef Kittler Research Institute of Artificial Intelligence and the International Joint Laboratory on Artificial Intelligence of the Ministry of Education at Jiangnan University, Wuxi, China. 
-He received his Ph.D. degree from Xidian University. 
+He is with the Josef Kittler Research Institute on Artifcial Intelligence, Jiangnan University, China, and also International Joint Laboratory on Artificial Intelligence, Ministry of Education, China.
+He received his Ph.D. degree from Xidian University in 2024. 
 His research interests include remote sensing and multimodal learning.
 
 </p>
