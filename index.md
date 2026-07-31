@@ -460,7 +460,7 @@ His research interests include remote sensing and multimodal learning.
 
 {% include awards.html %}
 
-{% include opening.html %}
+{% include openings.html %}
 
 
 
