@@ -418,9 +418,9 @@ title: Heng Zhou
 </p>
 
 <p>
-He is with the Josef Kittler Research Institute on Artifcial Intelligence, Jiangnan University, China, as well as International Joint Laboratory on Artificial Intelligence, Ministry of Education, China.
-He received his Ph.D. degree from Xidian University in 2024. 
-His research interests include remote sensing and multimodal learning.
+I am with the Josef Kittler Research Institute on Artifcial Intelligence, Jiangnan University, China, as well as International Joint Laboratory on Artificial Intelligence, Ministry of Education, China.
+I received the Ph.D. degree from Xidian University in 2024. 
+My research interests include remote sensing and multimodal learning.
 
 </p>
 
